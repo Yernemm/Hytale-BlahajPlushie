@@ -1,0 +1,119 @@
+{
+  "TranslationProperties": {
+    "Name": "Blahaj Plushie"
+  },
+  "Icon": "Icons/ItemsGenerated/Deco_Blahaj_Plush.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Cyan",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Blahaj.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/blahajtex.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "HitboxType": "Deco_Blahaj_Plush_Box",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Plushie",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -4,
+      -6
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ],
+    "Family": [
+      "Blahaj"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Scale": 1,
+  "UsePlayerAnimations": false
+}

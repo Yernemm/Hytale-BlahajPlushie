@@ -1,0 +1,118 @@
+{
+  "TranslationProperties": {
+    "Name": "Tavern Bed with Blahaj"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Beds"
+  ],
+  "Set": "Furniture_Tavern",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Furniture_Tavern_Bed",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Deco_Blahaj_Plush"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Beds"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Tavern_Bed_Blahaj.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      23,
+      323,
+      342
+    ],
+    "Translation": [
+      3,
+      -7
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Beds": [
+      {
+        "Offset": {
+          "X": 0.4,
+          "Y": 0.4,
+          "Z": 1.0
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Bed"
+          }
+        ]
+      },
+      "Primary": "Check_Can_Break_Respawn"
+    },
+    "CustomModel": "Blocks/Bed_Blahaj.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/BlahajBedTexture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Bed_Tavern",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#543022",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "RespawnBlock": {}
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Tavern"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "ItemLevel": 2
+}

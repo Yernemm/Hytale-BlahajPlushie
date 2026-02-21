@@ -1,0 +1,21 @@
+{
+  "Group": "Yernemm",
+  "Name": "Blahaj",
+  "Version": "1.2.1",
+  "Description": "Adds a Blahaj plushie! Model created by Wh4I3 on Sketchfab",
+  "Authors": [
+    {
+      "Name": "Yernemm",
+      "Email": "",
+      "Url": "https://yernemm.xyz/"
+    }
+  ],
+  "Website": "https://www.curseforge.com/hytale/mods/blahaj-plushie",
+  "ServerVersion": "2026.02.17-255364b8e",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
