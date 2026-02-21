@@ -2,6 +2,8 @@
 
 Keep your bed warm with this legendary plushie! 
 
+## [Curseforge](https://www.curseforge.com/hytale/mods/blahaj-plushie)
+
 Perhaps dive deeper into the shorky depths and unlock the true powers of the Haj...
 
 ## Features:
