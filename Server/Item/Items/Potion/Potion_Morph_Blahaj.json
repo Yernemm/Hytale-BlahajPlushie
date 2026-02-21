@@ -1,7 +1,8 @@
 {
   "Parent": "Potion_Template",
   "TranslationProperties": {
-    "Name": "The Blahaj Potion"
+    "Name": "yernemm_blahaj.BlahajPotion.name",
+    "Description": "yernemm_blahaj.BlahajPotion.description"
   },
   "Icon": "Icons/ItemsGenerated/Potion_Morph_Blahaj.png",
   "Recipe": {

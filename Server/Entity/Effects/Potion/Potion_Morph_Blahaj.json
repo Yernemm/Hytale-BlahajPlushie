@@ -1,6 +1,6 @@
 {
   "OverlapBehavior": "Overwrite",
-  "Duration": 60,
+  "Duration": 300,
   "ModelChange": "Blahaj",
   "ApplicationEffects": {
     "Particles": [
