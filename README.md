@@ -11,5 +11,6 @@ Perhaps dive deeper into the shorky depths and unlock the true powers of the Haj
 - [NEW in 1.2] The Blahaj Potion - unlock the true powers of the Blahaj... Craft it at the Alchemist Workbench.
 
 
+---
 
-Licensed under CC-BY-4.0
+*Licensed under CC-BY-4.0*
